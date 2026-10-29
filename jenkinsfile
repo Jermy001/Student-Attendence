@@ -22,7 +22,7 @@ pipeline {
 
         stage('Run Attendance Program') {
             steps {
-                bat 'python student_attendance.py'
+                bat 'python app.py'
             }
         }
 
